@@ -23,7 +23,7 @@ To use this project, follow the intsructions below:
 2. Install python 3.9.4, ffmpeg, and Google Cloud SDK
 3. Setup your Google Cloud Account and Client with all the necessary permissions to run Text-to-Speech and Speech-to-Text models.  See [SDK Download and Setup](https://cloud.google.com/sdk/gcloud#download_and_install_the) and [Enabling TTS Access](https://cloud.google.com/text-to-speech/access-control) for more details.
 4. Navigate to the "script" directory and install requirments.txt to your python installation.
-5. Add your background footage as an .mp4 file under *script/resources/bg_videos* and change the *stock_video* location in reddit_stories.py to match your filepath.  The video I used locally is too large for github.
+5. Add your background footage under *script/resources/bg_videos/{filename}.mp4* and change the *stock_video* location in reddit_stories.py to match your filepath.  The video I used locally is too large for github.
 6. Run reddit_stories.py
 
 ## Customization
