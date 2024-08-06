@@ -23,11 +23,11 @@ To use this project, follow the intsructions below:
 2. Install python 3.9.4, ffmpeg, and Google Cloud SDK
 3. Setup your Google Cloud Account and Client with all the necessary permissions to run Text-to-Speech and Speech-to-Text models.  See [SDK Download and Setup](https://cloud.google.com/sdk/gcloud#download_and_install_the) and [Enabling TTS Access](https://cloud.google.com/text-to-speech/access-control) for more details.
 4. Navigate to the "script" directory and install requirments.txt to your python installation.
-5. Run reddit_stories.py
+5. Add your background footage as an .mp4 file under *script/resources/bg_videos* and change the *stock_video* location in reddit_stories.py to match your filepath.  The video I used locally is too large for github.
+6. Run reddit_stories.py
 
 ## Customization
-Towards the end of reddit_stories.py, in the main funtion, you will find many adjustable parameters that you can tweak to change where the script pulls the stories from, how many videos made, the voice model used, etc.  You can also change the path to the background video to use custom footage. 
- Change these for simple customizations or fork this repository to make your own more complex changes!
+Towards the end of reddit_stories.py, in the main funtion, you will find many adjustable parameters that you can tweak to change where the script pulls the stories from, how many videos made, the voice model used, etc.  Change these for simple customizations or fork this repository to make your own more complex changes!
 
 ## Notes
-Stock Minecraft Footage provided free by GianLeco Minecraft Gameplays (https://www.youtube.com/watch?v=7BZ5ja3oS3Q)
+Stock Minecraft Footage provided free by GianLeco Minecraft Gameplays (https://www.youtube.com/watch?v=7BZ5ja3oS3Q).
