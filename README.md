@@ -1,7 +1,7 @@
 # Reddit Stories
 You may have noticed the popular trend in which reddit posts are narrated by AI voices while stock video game footage plays in the background.  The repetitive nature of these videos had me questioning how I could automate the creation process, which led me to create this project.  By running the Python script in this respository, you can effortlessly create short-form narrarated videos out of reddit posts.  Watch a smaple output here: 
 <p align=center>
-![](./samples/do fathers have a sixth sense too.mp4)
+[![Watch the video](https://img.youtube.com/vi/G29sXLgI6Q0/0.jpg)](https://www.youtube.com/shorts/G29sXLgI6Q0)
 </p>
 
 ## About
