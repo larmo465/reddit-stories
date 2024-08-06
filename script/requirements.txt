@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+google-cloud-texttospeech
+google-cloud-speech
+pandas
+opencv-python
+numpy
+Pillow
