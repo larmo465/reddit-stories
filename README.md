@@ -3,6 +3,14 @@ You may have noticed the popular trend in which reddit posts are narrated by AI 
 <p align=center>
 [![Watch the video](https://img.youtube.com/vi/G29sXLgI6Q0/0.jpg)](https://www.youtube.com/shorts/G29sXLgI6Q0)
 </p>
+=======
+You may have noticed the popular trend in which reddit posts are narrated by AI voices while stock video game footage plays in the background.  The repetitive nature of these videos had me questioning how I could automate the creation process, which led me to create this project.  By running the Python script in this respository, you can effortlessly create short-form narrarated videos out of reddit posts.  Watch a sample output here: 
+
+<video width="607" height="1080" controls>
+  <source src="https://github.com/larmo465/reddit-stories/blob/main/samples/do%20fathers%20have%20a%20sixth%20sense%20too.mp4">
+  Your browser does not support the video tag.
+</video>
+>>>>>>> 0823e49a32aae25eb11011164272c9095f2f0b76
 
 ## About
 ### Web Scraping
