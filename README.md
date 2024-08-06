@@ -1,7 +1,11 @@
 # Reddit Stories
-You may have noticed the popular trend in which reddit posts are narrated by AI voices while stock video game footage plays in the background.  The repetitive nature of these videos had me questioning how I could automate the creation process, which led me to create this project.  By running the Python script in this repository, you can effortlessly create short-form narrarated videos out of reddit posts.  Watch a smaple output here: 
+You may have noticed the popular trend in which reddit posts are narrated by AI voices while stock video game footage plays in the background.  The repetitive nature of these videos had me questioning how I could automate the creation process, which led me to create this project.  By running the Python script in this repository, you can effortlessly create short-form narrarated videos out of reddit posts.  Click the video below to watch a sample output on the project's youtube channel: 
+<p align="center">
+  <a href="https://www.youtube.com/shorts/G29sXLgI6Q0">
+    <img src="https://img.youtube.com/vi/G29sXLgI6Q0/0.jpg" />
+  </a>
+</p>
 
-[![Watch the video](https://img.youtube.com/vi/G29sXLgI6Q0/0.jpg)](https://www.youtube.com/shorts/G29sXLgI6Q0)
 ## About
 ### Web Scraping
 HTML content is downloaded from reddit using the requests library.  It is then parsed for the text bodies in each post using Beautiful Soup.  The text content for each post is then saved to a .txt file. 
